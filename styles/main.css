@@ -393,7 +393,7 @@ header {
 }
 .content {
     color: #FAF9F9;
-    flex: 0 0 580px;
+    flex: 0 0 250px;
     padding-top: 170px;
     padding-bottom: 170px;
 }
@@ -567,6 +567,7 @@ header {
     }
     .wrap { 
         max-width: 738px;
+        gap: 14px;
     }
     .content {
         padding-top: 42px;
@@ -582,17 +583,28 @@ header {
         font-size: 14px;
         max-width: 414px;
     }
+    .content-link, .promo a {
+        padding: 17px 40px;
+    }
     .visual-bg {
         width: 198px;
     }
     .promo {
         padding-top: 106px;
+        padding-bottom: 0;
+    }
+    .promo-left {
+        padding: 44px 51px;
+        height: 298px;
+    }
+    .promo-right {
+        padding: 60px 30px;
+        height: 298px;
     }
     .main img {
         width: 496px;
         right: -137px;
         bottom: -90px;
-        overflow: hidden;
     }
     .footer {
         padding-top: 140px;
@@ -723,7 +735,64 @@ header {
     .footer-item:nth-child(4) {
         grid-area: tel;
     }
+    .wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 22px;
+    }
+    .content-title span {
+        font-size: 14px;
+    }
+    .content-title {
+        font-size: 58px;
+        line-height: 1.4;
+    }
+    .content-text {
+        font-size: 13px;
+    }
+    .content-link, .promo a {
+        font-size: 13px;
+    }
+    .visual-bg {
+        display: none;
+    }
+    .content {
+        padding: 42px 15px 168px;
+    }
+    .main img {
+        width: 298px;
+        right: 84px;
+        bottom: -83px;
+    }
+    .promo {
+        padding-top: 95px;
+        padding-bottom: 42px;
+    }
+    .promo-left {
+        padding: 40px 58px 58px 15px;
+    }
+    .cost {
+        font-size: 55px;
+    }
+    .promo-description {
+        font-size: 15px;
+    }
+    .promo-right {
+        padding: 40px 58px 58px 15px;
+    }
+    .free {
+        font-size: 39px;
+    }
+    .content-link, .promo a {
+        padding: 18px 31px;
+    }
 
+}
+@media (max-width: 414px) {
+    .main img {
+        right: -115px;
+    }
 }
 @media (max-width: 360px) {
     .header-logo {
@@ -734,7 +803,6 @@ header {
     .menu-grid-title {
         font-size: 13px;
     }
-
 }
 @media (max-width: 320px) {
     .banner-box {
