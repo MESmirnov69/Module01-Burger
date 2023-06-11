@@ -440,7 +440,7 @@ header {
 .visual-bg {
     width: 432px;
     height: 100%;
-    background: linear-gradient(2.42deg, #F37335 -19.6%, #FBB731 100.79%, #FDC830 100.79%);
+    background: linear-gradient rgba(253, 249, 182, 0.45);
 }
 .main img {
     width: 829px;
@@ -850,7 +850,7 @@ header {
 .burger {
     width: 34px;
     height: 22px;
-    background-image: url(/images/burger.svg);
+    background-image: url(/images/burger-menu.svg);
     background-color: transparent;
     background-repeat: no-repeat;
     background-size: contain;
