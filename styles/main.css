@@ -790,6 +790,11 @@ header {
     }
 
 }
+@media (max-width: 468px) {
+    body, html {
+        overflow-x: hidden;
+    }
+}
 @media (max-width: 414px) {
     .main img {
         right: -115px;
